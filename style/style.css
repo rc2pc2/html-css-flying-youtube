@@ -1,0 +1,50 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    /* background-color: red; */
+    border: 5px solid black;
+
+    display: flex;
+}
+
+article{
+    width: 70%;
+    /* background-color: cyan; */
+}
+
+article img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+aside{
+    width: 30%;
+    /* background-color: magenta; */
+    overflow-y: auto;
+}
+
+aside article {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+}
+
+aside article img{
+    width: 35%;
+    /* padding: 0 2pxrem; */
+    margin-right: 5%;
+}
+
+aside article p{
+    width: 60%;
+    font-size: 1.5rem;
+    padding-top: .75rem;
+}
